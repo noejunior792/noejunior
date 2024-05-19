@@ -10,7 +10,7 @@ import { BackToTop } from './components/back-to-top'
 export const metadata = {
   title: {
     default: 'Home',
-    template: '%s | GB Dev',
+    template: '%s | Noé Dev',
   },
   icons: [
     {
