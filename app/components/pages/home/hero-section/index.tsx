@@ -32,7 +32,7 @@ export const HeroSection = ({ homeInfo }: HeroSectionProps) => {
           transition={{ duration: 0.5 }}
         >
           <p className="font-mono text-emerald-400">Olá, meu nome é</p>
-          <h2 className="text-4xl font-medium mt-2">Gabriel Borges</h2>
+          <h2 className="text-4xl font-medium mt-2">Noé Júnior</h2>
 
           <div className="text-gray-400 my-6 text-sm sm:text-base">
             <RichText content={homeInfo.introduction.raw} />
@@ -83,7 +83,7 @@ export const HeroSection = ({ homeInfo }: HeroSectionProps) => {
             width={420}
             height={404}
             src={homeInfo.profilePicture.url}
-            alt="Foto de perfil do Gabriel Borges"
+            alt="Foto de perfil do Noé Júnior"
           />
         </motion.div>
       </div>
